@@ -1,3 +1,4 @@
+import java.util.Objects;
 import java.util.Scanner;
 
 public class IO {
@@ -9,5 +10,13 @@ public class IO {
     }
     public static int inputInt(){
         return scan.nextInt();
+    }
+
+    public static float inputFloat(){
+        return scan.nextFloat();
+    }
+
+    public static void println(Objects str){
+        System.out.println(str);
     }
 }

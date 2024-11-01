@@ -8,6 +8,11 @@ public class Main {
         while(j!=4){
             Interface.menuInicial();
             j = IO.inputInt();
+
+            switch (j){
+                case 1:
+                Interface.menuAnimais();
+            }
         }
 
     }
