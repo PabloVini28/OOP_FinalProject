@@ -2,6 +2,12 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Maurisso");
+        // implementar uma interface de comunicação humano-computador
+
+        int j = 0;
+        while(j!=4){
+            Interface.menuInicial();
+        }
+
     }
 }
