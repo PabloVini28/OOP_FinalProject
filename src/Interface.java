@@ -15,8 +15,28 @@ public class Interface {
     }
 
     public static void menuAnimais(){
-        System.out.println("------------------------------");
-        System.out.println("----- Relação de Animais -----");
-        System.out.println("------------------------------");
+        System.out.println("------------------------------------");
+        System.out.println("-------  Relação de Animais --------");
+        System.out.println("------------------------------------");
+        System.out.println("1 - Menu de compra de animais ------");
+        System.out.println("2 - Menu de venda de animais  ------");
+        System.out.println("3 - Menu de verificacao de animais -");
+
+    }
+
+    public static void menuAdicaoAnimais(){
+        System.out.println("1 - Adicionar animais bovinos -");
+        System.out.println("2 - Adicionar animais suinos  -");
+        System.out.println("3 - Adicionar animais ovinos  -");
+        System.out.println("4 - Adicionar animais caprinos-");
+        System.out.println("5 - Adicionar animais equinos -");
+    }
+
+    public static void menuRemoverAnimais(){
+        System.out.println("1 - Retornar animais bovinos -");
+        System.out.println("2 - Retornar animais suinos  -");
+        System.out.println("3 - Retornar animais ovinos  -");
+        System.out.println("4 - Retornar animais caprinos-");
+        System.out.println("5 - Retornar animais equinos -");
     }
 }
