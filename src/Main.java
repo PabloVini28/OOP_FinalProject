@@ -7,6 +7,7 @@ public class Main {
         int j = 0;
         while(j!=4){
             Interface.menuInicial();
+            j = IO.inputInt();
         }
 
     }

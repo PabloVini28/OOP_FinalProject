@@ -7,4 +7,7 @@ public class IO {
     public static String input(){
         return scan.nextLine();
     }
+    public static int inputInt(){
+        return scan.nextInt();
+    }
 }
